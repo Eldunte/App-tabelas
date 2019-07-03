@@ -27,19 +27,20 @@ header h2{
 }
 
 header .container:before{
-	content: '';
+	content: 'Peças do seu armando';
 	display:inline-block;
-	height: 100%;
+	font-size: 2em;
+	height: 1%;
 	vertical-align:	middle;
 }
 
 .container{
-	width: 80%;
+	width: 100%;
 	height: 100%;
 	margin: 0 auto;
 	text-align: center;
 	font-style: italic;
-	background-color: green;
+	background-color: rgb(152, 97, 241);
 	
 }
 
