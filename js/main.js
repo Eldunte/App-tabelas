@@ -5,10 +5,13 @@ var inputNome = document.querySelector("#pecaN")
 console.log(tableNome)
 
 
-
-var pecasNome = [
-    "cooler"
-]
+function NomedaPeca(pecaNome) {
+    this.NomedaPeca = pecaNome ;
+    
+  }
+  
+  var pecasNome = new NomedaPeca("cooler");
+  
 
 
 
