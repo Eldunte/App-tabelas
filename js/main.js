@@ -1,12 +1,15 @@
-var tableElement= document.querySelector("#tabela table")
+var tableNome= document.querySelector("#tabela th")
 
 var inputNome = document.querySelector("#pecaN")
 
-console.log(tableElement)
+console.log(tableNome)
 
 
 
-var pecasNome = "cooler";
+var pecasNome = [
+    "cooler"
+]
+
 
 
 
@@ -16,12 +19,16 @@ var pecasNome = "cooler";
 
 function RendezirarTableNome() {
     for (nome of pecasNome) {
-        tableElement.innerHTML = ""
+        tableNome.innerHTML = pecasNome
+
+       
+
         var colunaNome = document.createElement('td')
         var TextoN = document.createTextNode(nome);
 
         colunaNome.appendChild(TextoN);
-        tableElement.appendChild(colunaNome);
+        tableNome.appendChild(colunaNome);
+        
        
 
     }
