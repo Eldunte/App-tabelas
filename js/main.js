@@ -16,7 +16,7 @@ var pecasNome = "cooler";
 
 function RendezirarTableNome() {
     for (nome of pecasNome) {
-        tableElement = ""
+        tableElement.innerHTML = ""
         var colunaNome = document.createElement('td')
         var TextoN = document.createTextNode(nome);
 
