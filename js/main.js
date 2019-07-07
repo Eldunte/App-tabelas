@@ -1,20 +1,24 @@
 var inputNome = document.querySelector("#pecaN")
 
 
-pecasNome = [
-    "cooler"
-]
+
+var pecasNome = {
+    nomePeca: "cooler"
+}
+var TextoN = document.createTextNode(pecasNome.nomePeca);
+
+
 
 console.log(inputNome);
 
-function adicionarTableNome() {
+function RendezirarTableNome() {
     for (nome of pecasNome) {
-    var colunaNome = document.createElement('td');
-    var textoNome = document.createTextNode(pecasNome);
-    
-    colunaNome.appendChild()
-      
+        var colunaNome = document.createElement('td')
+
+        colunaNome.appendChild()
+
     }
-    
-    
+
+
 }
+console.log(TextoNome)
