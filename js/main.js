@@ -1,24 +1,32 @@
+var tableElement= document.querySelector("#tabela table")
+
 var inputNome = document.querySelector("#pecaN")
 
-
-
-var pecasNome = {
-    nomePeca: "cooler"
-}
-var TextoN = document.createTextNode(pecasNome.nomePeca);
+console.log(tableElement)
 
 
 
-console.log(inputNome);
+var pecasNome = "cooler";
+
+
+
+
+
+
 
 function RendezirarTableNome() {
     for (nome of pecasNome) {
+        tableElement = ""
         var colunaNome = document.createElement('td')
+        var TextoN = document.createTextNode(nome);
 
-        colunaNome.appendChild()
+        colunaNome.appendChild(TextoN);
+        tableElement.appendChild(colunaNome);
+       
 
     }
 
 
 }
-console.log(TextoNome)
+
+RendezirarTableNome();
