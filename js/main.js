@@ -1,4 +1,6 @@
-var tableNome= document.querySelector("#tabela th")
+var tableNome= document.querySelector("#NomedaPeca")
+var tableValor = document.querySelector("#")
+var tableFuncao = //pega a id, ta na id da Th
 
 var inputNome = document.querySelector("#pecaN")
 
